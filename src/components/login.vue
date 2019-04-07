@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="login-con">
-      <h1>欢迎登录</h1>
+      <h1>欢迎登录卖家系统</h1>
       <Form ref="formInline" :model="formInline" :rules="ruleInline">
         <FormItem prop="user">
             <Input type="text" v-model="formInline.user" placeholder="用户名">
